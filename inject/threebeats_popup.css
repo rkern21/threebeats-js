@@ -1,0 +1,631 @@
+.threebeats_popup {
+    z-index: 9999999;
+    position: absolute;
+    width: 390px;
+}
+
+threeBeatsExtPopup{
+    width: 380px !important;
+}
+
+#threeBeatsExtPopup #threebeats_comment_textbox {
+    background-color: #000;
+}
+
+/*displays background image*/
+#threeBeatsExtPopup #threebeats_header_bg {
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 57px;
+    margin: 0 0 0 0 !important;
+}
+
+#threeBeatsExtPopup #threebeats_middle_bg {
+    background-image: url('images/middle_bg.png');
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 0 0 0px !important;
+    padding: 0 0 0 10px !important;
+    width: 380px;
+    height: 196px;
+}
+
+#threeBeatsExtPopup #threebeats_facebook_bg {
+    background-image: url('images/facebook_bg.png');
+    background-repeat: repeat-y;
+    margin: 0px 0 0 0 !important;
+    padding: 0 0 0 20px !important;
+    width: 380px;
+}
+
+#threeBeatsExtPopup #threebeats_footer_bg {
+    background-image: url('images/footer_bg.png');
+    background-repeat: no-repeat;
+    margin: -5px 0 0 0 !important;
+    width: 380px;
+    height: 31px;
+}
+
+/*displays 3beats logo*/
+#threeBeatsExtPopup #threebeats {
+    background-image: url('images/3beats.png');
+    background-repeat: no-repeat;
+    width: 133px;
+    height: 45px;
+    float: left;
+	margin: 4px 0 0 13px !important;
+}
+
+/*displays tagline*/
+#threeBeatsExtPopup #threebeats_tagline {
+    color: #FFE856;
+    font-family: Arial !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding: 0 0 0 34px !important;
+    width: 100%;
+}
+
+#threeBeatsExtPopup #threebeats_tagline_thx {
+    color: #FFE856;
+    font-family: Arial !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding: 0 0 0 34px !important;
+    width: 100%;
+}
+
+#threeBeatsExtPopup #threebeats_fb_display_comments {
+    color: #FFE75A;
+    float: left;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    height: auto;
+    margin: 0 0 0 12px !important;
+    padding: 0 0 0 21px !important;
+    min-height: 10px;
+}
+
+/***************** GENERAL *********************/
+#threeBeatsExtPopup p {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px !important;
+    margin: 10px 0 0 7px !important;
+	line-height: 100% !important;
+}
+
+#threeBeatsExtPopup form {
+    margin: 0px 0 0 0 !important;
+}
+
+#threeBeatsExtPopup a {
+    color: #FFE856 !important;
+    outline: none;
+}
+
+#threeBeatsExtPopup a:hover, a:active, a:focus {
+    color: #FFE85F !important;
+    outline: none;
+}
+
+/******************** SUBMIT *******************/
+#threeBeatsExtPopup .threebeats_submit_button {
+    position: relative;
+    margin: 5px 0 0 0 !important;
+    right: 50px;
+    /*width:34%; float:right; z-index:1;*/
+}
+
+/******************** TOP RIGHT CORNER *******************/
+#threeBeatsExtPopup #threebeats_visitor {
+    margin: 35px 35px 0 0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 10px !important;
+    float: right;
+    color: #eee;
+    display: inline;
+}
+
+.threebeats_closebox {
+    border: none;
+    margin: 0 0 0 -2px !important;
+    padding: 2px 0 0 0 !important;
+    vertical-align: middle;
+}
+
+/******************** TOP RIGHT CORNER *******************/
+
+/* Buttons Sprite */
+#threeBeatsExtPopup input {
+    color: #000;
+    font: bold 84% 'trebuchet ms', helvetica, sans-serif !important;
+    background-color: #000;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+	display: inline;
+}
+
+#threeBeatsExtPopup #threebeats_rank_buttons {
+    height: 45px;
+    overflow: hidden;
+    position: relative;
+    display: inline;
+}
+
+#threeBeatsExtPopup .threebeats_button_m2 {
+    background-image: url('images/rank-buttons.png');
+    background-color: #000 !important;
+    background-position: 0px 0px !important;
+    margin: 10px 0 0 31px !important;
+    width: 75px !important;
+    height: 38px !important;
+    border: none !important;
+	display: inline !important;
+}
+
+#threeBeatsExtPopup .threebeats_button_m2:hover, .threebeats_button_m2:active, .threebeats_button_m2:focus {
+    background-position: 0px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup .threebeats_button_m2_hv {
+    background-position: 0px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup #threebeats_current_rank_m2 {
+    background-image: url('images/rank-buttons.png');
+    background-position: 0px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup .threebeats_button_m1 {
+    background-image: url('images/rank-buttons.png');
+    background-color: #000 !important;
+    border: none !important;
+    background-position: -77px 0px !important;
+    width: 75px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+
+#threeBeatsExtPopup .threebeats_button_m1:hover, .threebeats_button_m1:active, .threebeats_button_m1:focus {
+    background-position: -77px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup #threebeats_current_rank_m1 {
+    background-image: url('images/rank-buttons.png');
+    /* $('#threebeats_current_rank_p1').css('background-image', getURL('rank-buttons.png')); */
+    background-position: -77px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup .threebeats_button_p1 {
+    background-image: url('images/rank-buttons.png');
+    background-color: #000 !important;
+    background-position: -154px 0px !important;
+    border: none !important;
+    width: 75px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+
+#threeBeatsExtPopup .threebeats_button_p1:hover, .threebeats_button_p1:active, .threebeats_button_p1:focus {
+    background-position: -154px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup #threebeats_current_rank_p1 {
+    background-image: url('images/rank-buttons.png');
+    background-position: -154px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup .threebeats_button_p2 {
+    background-image: url('images/rank-buttons.png');
+    background-color: #000 !important;
+    background-position: -231px 0 !important;
+    border: none !important;
+    width: 75px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+
+#threeBeatsExtPopup .threebeats_button_p2:hover, .threebeats_button_p2:active, .threebeats_button_p2:focus {
+    background-position: -231px -42px !important;
+    border: none !important;
+}
+
+#threeBeatsExtPopup #threebeats_current_rank_p2 {
+    background-image: url('images/rank-buttons.png');
+    background-position: -231px -42px !important;
+    border: none !important;
+}
+
+/*
+.close_button {
+    background-image: url(images/sprite.png);
+    background-position: 0px 0px;
+    margin-left: 31px;
+    margin-top: 10px;
+    width: 75px;
+    height: 38px;
+}
+*/
+
+#threeBeatsExtPopup #threebeats_fb_collapse {
+    text-decoration: none;
+}
+
+#displayText {
+    text-decoration: none;
+}
+
+/*************** MIDDLE AREA ******************/
+#threeBeatsExtPopup #threebeats_middle_area {
+    /* background-image: url('images/middle_bg.png');  should be middle_area.png */
+    height: 104px;
+    width: 318px;
+    margin: 5px 0 0 24px !important;
+    display: block;
+}
+
+#threeBeatsExtPopup #threebeats_mycomment {
+    background: #000;
+    position: relative;
+    top: 0px;
+    left: 23px;
+    height: 104px;
+    width: 318px; 
+	/*padding-left:24px;*/
+	/*display:block;*/
+    margin: 0 0 40px 0 !important;
+}
+
+#threebeats_celeb_img {
+/*background-image:url(images/james.png);*/
+    background-repeat: no-repeat;
+    border: 1px solid #000 !important;
+    display: inline;
+    float: left;
+    margin: 15px 1px 0 15px !important;
+    height: 80px;
+    width: 70px; /*padding:1px;*/
+}
+
+#threebeats_celeb_img:hover {
+    border: 1px solid #DE30EC !important;
+    margin: 15px 1px 0 15px !important;
+}
+
+.threebeats_graph_title {
+    display: inline-block;
+    color: #FFE655 !important;
+    font-family: Tahoma !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+
+.threebeats_graph_img {
+    display: inline-block;
+    width: 211px;
+    height: 69px;
+    /*float:right; padding-left:2px;*/
+    margin: 4px 9px 0 0 !important;
+}
+
+.threebeats_par {
+    margin: 0 0 0 190px !important;
+    position: absolute;
+    top: 324px;
+}
+
+/*************** COMMENT STATE ******************/
+#threebeats_comment_state 
+{
+    /* background-image: url('images/comment_border.png'); */
+    /* background-repeat: no-repeat !important; */
+	/* border: 2px; */
+    height: 100px !important;
+    display: none;
+    margin: 6px 0 4px 33px !important;
+    width: 308px;
+    /* background-color: #000000 !important; */
+}
+
+#threeBeatsExtPopup textarea
+{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    border-width: 2px !important;
+	background-color:ffffff;
+	background-image:url(http://);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	border-color: #307FC5;
+	border-style: solid;
+    color: #408FD5;
+    font-style: italic !important;
+	font-size: 12px;
+    height: 82px !important;
+    margin: 4px 0 0 0px !important;
+    padding: 3px 5 5 5 !important;
+    width: 286px !important;
+}
+
+
+#threebeats_popup_wrapper {
+}
+
+#threebeats_form {
+}
+
+#threebeats_form_label {
+    float: left;
+    margin: 8px 0 0 0 !important;
+    text-align: right;
+    width: 50px;
+}
+
+#threebeats_form_data {
+    float: right;
+    margin: 3px 0 0 0 !important;
+    width: 170px;
+}
+
+/************* FOOTER *************/
+/*#footer {*/
+    /*background-image: url(images/footer.png);*/
+    /*background-repeat: no-repeat;*/
+    /*width: 350px;*/
+    /*height: 31px;*/
+    /*margin-left: 17px;*/
+    /*margin-top: 22px;*/
+/*}*/
+
+/*#footer_fb {*/
+    /*background-image: url(images/footer.png);*/
+    /*background-repeat: no-repeat;*/
+    /*width: 350px;*/
+    /*height: 31px;*/
+    /*margin-left: 17px;*/
+    /*margin-top: 22px;*/
+/*}*/
+
+/************* FACEBOOK *************/
+#threebeats_fb_collapse {
+    text-decoration: none;
+}
+
+#threebeats_fb_expand {
+}
+
+.threebeats_fb_friend_img {
+    position: relative;
+    float: left;
+    padding: 7px 0 0 15px !important;
+}
+
+.threebeats_fb_comment_bg {
+    background: #000 url(images/comment_hv.png) repeat-x !important;
+    width: 330px;
+    height: 65px; 
+    margin: 0 0 0 12px !important;
+}
+
+.threebeats_fb_comment_bg:hover {
+    background: #000 none !important;
+}
+
+.threebeats_fb_comment_text {
+    position: relative;
+    float: right;
+    font-family: Arial !important;
+    color: #fff !important;
+    font-size: 10px !important;
+    width: 240px;
+    margin: 5px 12px 0 0 !important;
+}
+
+.threebeats_fb_name {
+    color: #959595;
+    font-size: 13px !important;
+}
+
+.threebeats_fb_comment {
+    color: #fff;
+    font-size: 10px !important;
+}
+
+/************* mycomment *************/
+.threebeats_mycomment_img {
+    position: relative;
+    float: left;
+    padding: 10px 0 0 15px !important;
+}
+
+.threebeats_mycomment_bg {
+    background-image: none;
+    width: 330px;
+    height: 120px;
+    margin: 5px 0 5px 12px !important;
+    overflow:hidden;
+}
+/*
+#threebeats_myvote1 {
+    margin: 0 0 0 0 !important;
+}
+
+.threebeats_mycomm_thumb_m2 {
+    position: relative;
+    top: -3px;
+    background: url(http://www.toolbardev.com/3beats/inject/images/sprite.png) !important;
+    background-position: 0px 90px !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+    padding: 0px 0 0 0 !important;
+}
+
+.threebeats_mycomm_thumb_m1 {
+    position: relative;
+    top: -3px;
+    background: url(http://www.toolbardev.com/3beats/inject/images/sprite.png) !important;
+    background-position: 0px 75px !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+    padding: 0px 0 0 0 !important;
+}
+
+.threebeats_mycomm_thumb_p1 {
+    position: relative;
+    top: -3px;
+    background: url(http://www.toolbardev.com/3beats/inject/images/sprite.png) !important;
+    background-position: 0px 60px !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+    padding: 0px 0 0 0 !important;
+}
+
+.threebeats_mycomm_thumb_p2 {
+    position: relative;
+    top: -3px;
+    background: url(http://www.toolbardev.com/3beats/inject/images/sprite.png) !important;
+    background-position: 0px 45px !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+    padding: 0px 0 0 0 !important;
+}
+*/
+.threebeats_mycomment_text {
+    position: relative;
+    float: right;
+    font-family: Arial !important;
+    color: #fff !important;
+    font-size: 10px !important;
+    width: 240px;
+    margin: 20p 12px 0 0 !important;
+}
+
+.threebeats_mycomment_name {
+    color: #959595 !important;
+    font-size: 13px !important;
+}
+
+.threebeats_mycomment_comment {
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+#threebeats_myname {
+    color: #797979 !important;
+    font-size: 16px !important;
+}
+
+#threebeats_mycomm_text {
+    font-size: 14px !important;
+}
+
+#threebeats_mycomm_text a {
+    font-size: 14px !important;
+    color: #539FB9 !important;
+}
+
+#threebeats_site_title {
+    color: #818181 !important;
+}
+
+/************* submit_sprite.PNG IMAGES ***********/
+#threebeats_submit_buttons {
+    height: 15px;
+    overflow: hidden;
+    position: relative;
+    display: inline;
+}
+
+.threebeats_submitbtn {
+    background-image: url('images/submit_sprite.png');
+    background-position: 0px 0px !important;
+    margin: 2px 0px 0px 90px !important;
+    width: 45px;
+    height: 15px;
+    /* clip: rect(0px 45px 16px 0px); */
+}
+
+.threebeats_submitbtn:hover {
+    /* clip: rect(17px 45px 32px 0px); */
+    background-position: 0px -16px !important;
+}
+
+/************* SPRITE.PNG IMAGES ***********/
+.threebeats_sprite {
+    position: relative;
+}
+
+.threebeats_sprites {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.threebeats_thumb_m2 {
+    clip: rect(0px 16px 15px 0px);
+    left: 77px;
+    top: 8px;
+    border: 0px;
+}
+
+.threebeats_thumb_m1 {
+    clip: rect(16px 16px 30px 0px);
+    left: 77px;
+    top: -7px;
+    border: 0px;
+}
+
+.threebeats_thumb_p1 {
+    clip: rect(31px 16px 45px 0px);
+    left: 77px;
+    top: -25px;
+    border: 0px;
+}
+
+.threebeats_thumb_p2 {
+    clip: rect(46px 16px 60px 0px);
+    left: 77px;
+    top: -40px;
+    border: 0px;
+}
+
+.threebeats_expand {
+    clip: rect(60px 10px 66px 0px);
+    left: 174px;
+    top: -70px;
+    border: 0px;
+}
+
+.threebeats_collapse {
+    clip: rect(67px 10px 76px 0px);
+    left: 174px;
+    top: -78px;
+    border: 0px;
+}
+
+.threebeats_close_button {
+    clip: rect(77px 16px 90px 0px);
+    left: 5px;
+    top: -91px;
+    border: none;
+    margin: 0px 0px 0px -2px !important;
+    padding: 2px 0 0 0 !important;
+    vertical-align: middle;
+    cursor: pointer;
+}

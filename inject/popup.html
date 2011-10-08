@@ -1,0 +1,87 @@
+<div id="threeBeatsExtPopup" class="threebeats_popup">
+    <!-- header and logo -->
+    <span id="testt"></span>
+    <div id="threebeats_header_bg">
+        <!-- 3beats logo -->
+        <div id="threebeats"></div>
+        <!-- title and buttons -->
+        <div id="threebeats_visitor">
+            <!--Hi <span id="threebeats_username"></span> | <a href="#">Sign Out</a>-->
+            <a style="text-decoration:none;" href="javascript:none();">&nbsp;
+                <div class="threebeats_sprite"><img class="threebeats_sprites threebeats_close_button" src="wp-content/plugins/threebeats-js/inject/images/sprite.png"/></div>
+            </a>
+        </div>
+    </div>
+
+    <!-- middle section --->
+
+    <div id="threebeats_middle_bg">
+        <!-- tagline -->
+        <div id="threebeats_tagline">
+            Now I think <a id="threebeats_celebURL" href="#"><span id="threebeats_celebName1" style="font-style:italic;text-decoration: underline;"></span></a> is...
+        </div>
+
+        <div id="threebeats_tagline_thx" style="display: none;"></div>
+
+        <form name="form1" action="" method="post" onsubmit="return popupState('login_form');">
+            <!-- buttons -->
+            <div id="threebeats_rank_buttons">
+                <input type="button" class="threebeats_button_m2" name="rank1" value="" onblur="return false;"
+                       onclick="tog('m2');"/>
+                <input type="button" class="threebeats_button_m1" name="rank2" value="" onblur="return false;"
+                       onclick="tog('m1');"/>
+                <input type="button" class="threebeats_button_p1" name="rank3" value="" onblur="return false;"
+                       onclick="tog('p1');"/>
+                <input type="button" class="threebeats_button_p2" name="rank4" value="" onblur="return false;"
+                       onclick="tog('p2');"/>
+            </div>
+
+            <!-- celebrity image and graph -->
+            <div id="threebeats_middle_area">
+                <div id="threebeats_celeb_img">
+                    <img id="threebeats_celebpic"
+                         src=""
+                         height="80px" width="70px"/>
+                </div>
+                <p class="threebeats_graph_title">Crowd Pulse on <span id="threebeats_celebName2"></span></p>
+                <img class="threebeats_graph_img" />
+            </div>
+
+            <!-- comment state -->
+            <div id="threebeats_comment_state" style="display:none;">
+                <textarea id="threebeats_comment_textbox" name="text" style="overflow:hidden;" onclick="clear_comment_default()"
+                          onkeydown="clear_comment_default()">Leave your Comment here...</textarea>
+            </div>
+
+            <!-- mycomment -->
+            <div id="threebeats_mycomment" style="display:none;">
+                <div class="threebeats_mycomment_bg">
+                    <img id="threebeats_mypic" class="threebeats_mycomment_img" src="wp-content/plugins/threebeats-js/inject/images/defaults_img.png">
+
+                    <p class="threebeats_mycomment_text">
+					<span id="threebeats_myname">&nbsp;</span>
+					<span id="threebeats_myvote1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="threebeats_mycomment_name">&nbsp;&nbsp;</span>
+                    <span class="threebeats_mycomment_comment" id="threebeats_mycomm_text"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- end mycomment -->
+
+            <!-- facebook comment expansion -->
+            <div id="threebeats_fb_display_comments"></div>
+            <!-- submit button -->
+            <div id="threebeats_submit_buttons"><input type="button" id="threebeats_rksubmit" class="threebeats_submitbtn" name="submit1" style="background-color:transparent;background-repeat:no-repeat;border:none;"/></div>
+            <!-- Please code the submit function -->
+
+        </form>
+    </div>
+
+    <!-- facebook comments -->
+    <div id="threebeats_facebook_bg" style="display: none"></div>
+
+    <!-- footer section --->
+    <div id="threebeats_footer_bg"></div>
+</div>
+
+<div id="testImg"></div>
